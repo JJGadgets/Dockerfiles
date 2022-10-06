@@ -6,8 +6,8 @@ RUN xcaddy build \
     --with github.com/lucaslorentz/caddy-docker-proxy/v2 \
     --with github.com/mholt/caddy-l4 \
     --with github.com/sjtug/caddy2-filter \
-    --with github.com/caddyserver/replace-response
-    --with github.com/hslatman/caddy-crowdsec-bouncer/http
+    --with github.com/caddyserver/replace-response \
+    --with github.com/hslatman/caddy-crowdsec-bouncer/http \
     --with github.com/hslatman/caddy-crowdsec-bouncer/layer4
 
 FROM caddy:2.6.1
